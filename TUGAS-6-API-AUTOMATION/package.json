@@ -1,0 +1,21 @@
+{
+    "name": "Automation-API-Test-Digital-Skola-Tugas-7",
+    "version": "1.0.0",
+    "description": "Automation for POST and GET Api Calls for reqres.in",
+    "type": "module",
+    "scripts": {
+        "test": "mocha --timeout 5000 --reporter mocha-multi-reporters --reporter-options configFile=reporter-config.json"
+    },
+    "dependencies": {
+        "ajv": "^8.12.0",
+        "node-fetch": "^3.3.1"
+    },
+    "devDependencies": {
+        "ajv": "^8.12.0",
+        "chai": "^4.3.8",
+        "mocha": "^11.7.5",
+        "mocha-multi-reporters": "^1.5.1",
+        "mocha-simple-html-reporter": "^2.0.0",
+        "node-fetch": "^3.3.1"
+    }
+}
